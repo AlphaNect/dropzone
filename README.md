@@ -2,6 +2,8 @@
 
 [![Test and Release](https://github.com/dropzone/dropzone/actions/workflows/test-and-release.yml/badge.svg)](https://github.com/dropzone/dropzone/actions/workflows/test-and-release.yml)
 
+**This is a fork of the original Dropzone which emits all files from directories to the `addedfiles` event: [https://github.com/dropzone/dropzone/pull/1995](https://github.com/dropzone/dropzone/pull/1995)** 
+
 Dropzone is a JavaScript library that turns any HTML element into a dropzone.
 This means that a user can drag and drop a file onto it, and Dropzone will
 display file previews and upload progress, and handle the upload for you via
