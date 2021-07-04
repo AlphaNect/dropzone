@@ -279,7 +279,8 @@ export default class Dropzone extends Emitter {
               this.addFile(file);
             }
           }
-          this.emit("addedfiles", files);
+          const filesAsArray = Array.from(files);
+          this.emit("addedfiles", filesAsArray);
           setupHiddenFileInput();
         });
       };
